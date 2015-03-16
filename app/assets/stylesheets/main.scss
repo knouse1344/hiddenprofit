@@ -1,0 +1,146 @@
+// Place all the styles related to the main controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+
+#index p {
+	font-size: 1.5em;
+	line-height: 1.5em;
+	font-weight: 300;
+	font-family: 'Lato', sans-serif;
+}
+.section {
+    padding-top: 4em;
+    padding-bottom: 4em;
+    background: #fff;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.section-dark {
+    padding-top: 4em;
+    padding-bottom: 4em;
+    background: #f3f3f3;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+#index .section a, #index .section-dark a, #index .slider a {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    color: #444;
+    display: inline-block;
+    text-decoration: none;
+    padding: .5em 2em;
+    opacity: .6;
+    margin-top: 2em;
+    border-radius: .4em;
+    border: 3px solid #ffc324;
+    background: -webkit-linear-gradient(top, #ffc324 0%, #C79513 100%);
+    background: -moz-linear-gradient(top, #ffc324 0%, #C79513 100%);
+    background: -ms-linear-gradient(top, #ffc324 0%, #C79513 100%);
+    background: -o-linear-gradient(top, #ffc324 0%, #C79513 100%);
+    background:  linear-gradient(to bottom, #ffc324 0%, #C79513 100%);
+}
+
+#index .section.slider a {
+    opacity: 1;
+    margin: 2em auto 0;
+}
+
+#index .section.slider a:hover {
+    opacity: .6;
+}
+
+#index .section a:hover, #index .section-dark a:hover {
+    opacity: 1;
+}
+
+.section p, .section h1, .section h2, .section h3, .section-dark p, .section-dark h1, .section-dark h2, .section-dark h3 {
+    font-family: 'Lato', sans-serif;
+    margin-top: 0;
+}
+
+.section h1, .section h2, .section-dark h1, .section-dark h2 {
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.section h1 span, .section-dark h1 span {
+    font-weight: 700;
+}
+
+.section.results {
+    text-align: center;
+
+    p.results-text {
+    	border-top: 1px solid #dedede;
+    	padding-top: 1em;
+    	margin-top: 1.5em;
+    	margin-bottom: 3em;
+    }
+}
+
+#index .book-photo {
+    width: 100%;
+}
+
+#index .webinar-photo {
+    width: 100%;
+}
+
+#index .press-img {
+    width: 100%;
+}
+
+#index .slider {
+    background: #000;
+    width: 100%;
+    height: 28em;
+    display: block;
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: center;
+    border: 0;
+}
+
+#index .slider h1 {
+    color: #fff;
+    padding: 2em 0 0;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-weight: 300;
+}
+
+#index .slider h1 span {
+    font-weight: 700;
+}
+
+#index .slider p {
+    text-align: center;
+}
+
+#index .slider .profile {
+    height: 35em;
+    margin-top: -7em;
+    display: block;
+}
+
+#footer {
+    padding:3em 0;
+    background: #555;
+    font-family: 'Lato', sans-serif;
+}
+
+#footer p {
+    font-size: .8em;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+}
+
+#footer p span {
+    padding: 0 1em;
+}
