@@ -98,9 +98,15 @@
     margin-top: 3em;
 }
 
+#index .press {
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
 #index .press-img {
     width: 100%;
-    margin: auto;
+    display: inline-block;
+    margin: 1em auto 1em;
 }
 
 #index .slider {
