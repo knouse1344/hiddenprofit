@@ -134,44 +134,45 @@
 #index .slider h1 {
   color: #fff;
   font-size: 3em;
+  line-height: 1.35em;
   padding: 0em 0 0;
   font-family: 'Lato', sans-serif;
   text-align: center;
   font-weight: 300;
 }
 
-/* line 132, /Users/Bryan/Desktop/projects/hiddenprofit/app/assets/stylesheets/main.scss */
+/* line 133, /Users/Bryan/Desktop/projects/hiddenprofit/app/assets/stylesheets/main.scss */
 #index .slider h1 span {
   font-weight: 700;
 }
 
-/* line 136, /Users/Bryan/Desktop/projects/hiddenprofit/app/assets/stylesheets/main.scss */
+/* line 137, /Users/Bryan/Desktop/projects/hiddenprofit/app/assets/stylesheets/main.scss */
 #index .slider p {
   text-align: center;
 }
 
-/* line 140, /Users/Bryan/Desktop/projects/hiddenprofit/app/assets/stylesheets/main.scss */
+/* line 141, /Users/Bryan/Desktop/projects/hiddenprofit/app/assets/stylesheets/main.scss */
 #index .slider .profile {
   height: 35em;
   display: block;
   margin: -7em auto 0;
 }
 
-/* line 146, /Users/Bryan/Desktop/projects/hiddenprofit/app/assets/stylesheets/main.scss */
+/* line 147, /Users/Bryan/Desktop/projects/hiddenprofit/app/assets/stylesheets/main.scss */
 #footer {
   padding: 3em 0;
   background: #555;
   font-family: 'Lato', sans-serif;
 }
 
-/* line 152, /Users/Bryan/Desktop/projects/hiddenprofit/app/assets/stylesheets/main.scss */
+/* line 153, /Users/Bryan/Desktop/projects/hiddenprofit/app/assets/stylesheets/main.scss */
 #footer p {
   font-size: .8em;
   color: #fff;
   font-family: 'Lato', sans-serif;
 }
 
-/* line 158, /Users/Bryan/Desktop/projects/hiddenprofit/app/assets/stylesheets/main.scss */
+/* line 159, /Users/Bryan/Desktop/projects/hiddenprofit/app/assets/stylesheets/main.scss */
 #footer p span {
   padding: 0 1em;
 }
