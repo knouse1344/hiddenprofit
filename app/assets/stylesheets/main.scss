@@ -76,13 +76,17 @@
 }
 
 .section.results {
-    text-align: center;
 
     p.results-text {
+        text-align: left;
     	border-top: 1px solid #dedede;
     	padding-top: 1em;
     	margin-top: 1.5em;
-    	margin-bottom: 3em;
+        margin-bottom: 1.5em;
+    }
+
+    p.author {
+        text-align: right;
     }
 }
 
@@ -99,14 +103,19 @@
 }
 
 #index .press {
+    text-align: center;
 	padding-top: 2em;
 	padding-bottom: 2em;
 }
 
 #index .press-img {
-    width: 100%;
+    height: 4em;
     display: inline-block;
-    margin: 1em auto 1em;
+    margin: 1em;
+}
+
+#index .press-img.levin {
+    height: 5em;
 }
 
 #index .slider {
@@ -144,18 +153,8 @@
     margin: -7em auto 0;
 }
 
-#footer {
-    padding:3em 0;
-    background: #555;
-    font-family: 'Lato', sans-serif;
-}
 
-#footer p {
-    font-size: .8em;
-    color: #fff;
-    font-family: 'Lato', sans-serif;
-}
 
-#footer p span {
-    padding: 0 1em;
-}
+
+
+
