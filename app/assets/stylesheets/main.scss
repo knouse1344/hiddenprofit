@@ -12,6 +12,7 @@
 	font-family: 'Lato', sans-serif;
 }
 .section {
+    position: relative;
     padding-top: 2em;
     padding-bottom: 8em;
     background: #fff;
@@ -20,6 +21,7 @@
 }
 
 .section-dark {
+    position: relative;
     padding-top: 2em;
     padding-bottom: 8em;
     background: #f3f3f3;
@@ -92,6 +94,9 @@
 #index .book-photo {
     width: 100%;
     margin-top: 15em;
+    position: absolute;
+    right:0;
+    top: 0;
 }
 
 #index .webinar-photo {
@@ -147,9 +152,9 @@
 }
 
 #index .slider .profile {
-    height: 35em;
+    height: 50em;
     display: block;
-    margin: -7em auto 0;
+    margin: -11em auto 0;
 }
 
 
