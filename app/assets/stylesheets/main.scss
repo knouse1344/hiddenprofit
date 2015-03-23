@@ -50,7 +50,10 @@
 
 #index .section.slider a {
     opacity: 1;
-    margin: 2em auto 3em;
+    margin: 1em auto 2em;
+    padding: .25em 1em .1em;
+    font-size: 3em;
+    text-transform: uppercase;
 }
 
 #index .section.slider a:hover {
@@ -139,12 +142,23 @@
     padding: 0em 0 0;
     font-family: 'Lato', sans-serif;
     text-align: center;
-    font-weight: 300;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
-#index .slider h1 span {
-    font-weight: 700;
-    font-size: .75em;
+#index .slider h1 div {
+    padding-top: 1em;
+    display: block;
+    text-transform: capitalize;
+    font-weight: 300;
+    font-size: 1em;
+}
+
+#index .slider h1 div span {
+    font-size: 3em;
+    font-weight: bold;
+    position: relative;
+    top: .2em;
 }
 
 #index .slider p {
